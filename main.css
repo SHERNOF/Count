@@ -1,5 +1,9 @@
-.main {
+#counter{
+  justify-content: center;
+}
+.col1 {
     display: flex;
+    justify-content: center;
     border: thin solid black;
     border-radius: 5px;
     box-shadow: 5px 5px 5px #ccc;
@@ -7,15 +11,28 @@
     height: 500px;
     padding: 20px;
     font-family: papyrus;
-    justify-content: center;
-    font-size: 50px
     
+    font-size: 50px
   }
   #counter {
-      margin-top: 200px;
+      margin: auto;
   }
 
   .navbar {
     margin: 10px;
     justify-content: flex-end;
   }
+
+  .col2 {
+    display: flex;
+    /* border: thin solid black; */
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #ccc;
+    width: 360px;
+    height: 50px;
+    padding: 3px;
+    font-family: papyrus;
+    justify-content: space-around;
+    font-size: 20px
+  }
+
