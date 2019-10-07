@@ -3,7 +3,9 @@ var counter = document.getElementById('counter')
 var countM = document.getElementsByClassName('col1')[0], a = 0;
 countM.onclick = function() {
     a += 1;
-    document.getElementById('counter').innerHTML = ("Attendees: " + a).fontsize(200);
+    var x = "Attendees: " + a;
+    document.getElementById('counter').innerHTML = x;
+    document.getElementById('counter').style.fontSize = "100px";
 
     // document.getElementById('counter').innerHTML.fon;
 }
@@ -20,9 +22,11 @@ resumeMe.onclick = function () {
 
 var resetMe = document.getElementById('resetMe');
 resetMe.onclick = function () {
-    x = 0
-    counter.disabled = false;
-    document.getElementById('counter').innerHTML = 'Click on Surface to Count';
+    // counter.disabled = false;
+    // x = 0
+    document.location.reload();
+    // document.getElementById('counter').innerHTML = reset();
+    // document.getElementById('counter').innerHTML = 'Click on Surface to Count';
     
 }
 
