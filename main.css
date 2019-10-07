@@ -32,7 +32,7 @@
     height: 1000px;
     padding: 5px;
     font-family: papyrus;
-    font-size: 250px;
+    /* font-size: 50px; */
   }
   #counter {
       margin: auto;
@@ -54,7 +54,7 @@
     padding: 3px;
     font-family: papyrus;
     justify-content: space-around;
-    font-size: 150px
+    /* font-size: 300px */
   }
   .col3 {
     display: flex;
@@ -66,7 +66,7 @@
     padding: 3px;
     font-family: papyrus;
     justify-content: space-around;
-    font-size: 150px
+    /* font-size: 2rem; */
   }
 
   footer {
@@ -79,7 +79,10 @@
     background-color: #ccc;
   }
 
- .text-muted{
-   font-style: blue;
- }
+h1{
+  font-size: 60px;
+}
 
+h2{
+  font-size: 40px;
+}
