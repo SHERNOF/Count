@@ -32,7 +32,7 @@
     height: 1000px;
     padding: 5px;
     font-family: papyrus;
-    font-size: 100px;
+    font-size: 250px;
   }
   #counter {
       margin: auto;
@@ -54,7 +54,7 @@
     padding: 3px;
     font-family: papyrus;
     justify-content: space-around;
-    font-size: 50px
+    font-size: 150px
   }
   .col3 {
     display: flex;
@@ -66,7 +66,7 @@
     padding: 3px;
     font-family: papyrus;
     justify-content: space-around;
-    font-size: 50px
+    font-size: 150px
   }
 
   footer {
