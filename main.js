@@ -3,7 +3,9 @@ var counter = document.getElementById('counter')
 var countM = document.getElementsByClassName('col1')[0], a = 0;
 countM.onclick = function() {
     a += 1;
-    document.getElementById('counter').innerHTML = "Attendees: " + a;
+    document.getElementById('counter').innerHTML = ("Attendees: " + a).fontsize(200);
+
+    // document.getElementById('counter').innerHTML.fon;
 }
 
 var pauseMe = document.getElementById('pauseMe');
