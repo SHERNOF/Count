@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>win-count</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="main.css">
   
@@ -11,31 +11,45 @@
     <!-- Nav bar-->
     <!-- As a link -->
     <nav class="navbar navbar-light bg-light">
-            <img id="logo" src="img/win_logo.jpg" style="width:100px;">
+            <img id="logo" class="img-fluid" src="img/win_logo.jpg" style="width:100px;">
     </nav>
     <hr>
     <!-- End of Nav Bar -->
 
-    <div class="container main">
+    <div class="main container-fluid">
             <div class="row">
-            <!-- <form id="test2">   -->
+            
               <div id="test1" class="col1">
-                    <p id="counter">Click on Surface to Count</p>
-                    <p id="counted"></p>                   
+                  <!-- <p id="counter">Click on Surface to Count</p> -->
+                <button type="button" id="counter" class="btn btn-secondary  btn-lg btn-block">Click on Surface to Count</button>                  
               </div>
-            <!-- </form> -->
-              <hr>
+            
               <div class="w-100"></div>
               <div class="col2">
-                    <button type="button" class="pauseMe btn btn-warning btn-block">Pause</button>
+                <button type="button" id="pauseMe" class="btn btn-info btn-block">Pause</button>
               </div>
-        
               <div class="col2">
-                    <button type="button" class="resumeMe btn btn-success btn-block">Resume</button>
+                <button type="button" id="resumeMe" class="resumeMe btn btn-primary btn-block">Resume</button>
               </div>
+
+              <div class="w-100"></div>
+              <div class="col3">
+                <button type="button" id="resetMe" class="btn btn-warning btn-block">Reset</button>
+              </div>
+              <div class="col3">
+                <button type="button" id="saveMe" class="resumeMe btn btn-success btn-block">Save Attendance</button>
+              </div>
+
             </div>
           </div>
 
 <script type="text/javascript" src="main.js"></script>
+<footer class="border-top text-center small text-muted py-3">
+ 
+    <p class="m-0">Copyright &copy; 2019 <a href="/" class="text-muted">WinSQ</a>. All rights reserved.</p>
+    <p id="snf">-- To God be the Glory --</p>
+  
+
+  </footer>
 </body>
 </html>
